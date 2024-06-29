@@ -1,6 +1,6 @@
 /* Genel stil */
 body {
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #fafafa;
@@ -12,16 +12,16 @@ body {
 }
 
 .header .logo {
-  max-width: 100%;
-  height: auto;
+  width: 175px;
 }
 
 .login-box, .app {
   background-color: #fff;
   border: 1px solid #dbdbdb;
-  margin: 10px;
-  padding: 20px;
+  margin: 20px auto;
+  padding: 40px;
   border-radius: 8px;
+  max-width: 350px;
 }
 
 .input-box {
@@ -34,24 +34,28 @@ body {
   border: 1px solid #dbdbdb;
   border-radius: 5px;
   box-sizing: border-box;
+  background-color: #fafafa;
+  font-size: 14px;
 }
 
 .button-box {
   text-align: center;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .button-box .btn {
-  background-color: #3897f0;
+  background-color: #0095f6;
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  width: 100%;
+  font-weight: bold;
 }
 
 .button-box .btn:hover {
-  background-color: #2d6bca;
+  background-color: #007bb5;
 }
 
 .forgot, .text {
@@ -62,15 +66,22 @@ body {
 
 .forgot {
   color: #00376b;
+  font-size: 12px;
+}
+
+.text {
+  font-size: 14px;
 }
 
 .text a {
-  color: #00376b;
+  color: #0095f6;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .app p {
   text-align: center;
+  font-size: 14px;
 }
 
 .app-img {
@@ -81,7 +92,7 @@ body {
 }
 
 .app-img img {
-  width: 120px;
+  width: 136px;
   height: auto;
 }
 
@@ -104,19 +115,20 @@ body {
 .footer-nav a {
   color: #00376b;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .footer-logo {
   display: block;
   margin-top: 10px;
+  font-size: 12px;
 }
 
 /* Mobil uyumlu tasarım */
 @media (max-width: 600px) {
   .login-box, .app {
     margin: 10px;
-    padding: 15px;
+    padding: 20px;
   }
 
   .header .logo {
